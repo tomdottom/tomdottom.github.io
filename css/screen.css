@@ -332,6 +332,93 @@ th {
   padding: 0;
 }
 
+/* Vertical Rhythm Stuff (duh!) */
+/* line 106, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 14, ../_sass/sass/screen.scss */
+p {
+  line-height: 1.5em;
+  margin-top: 0.75em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.75em;
+}
+
+/* line 19, ../_sass/sass/screen.scss */
+h1 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-top: 0.7em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.3em;
+}
+
+/* line 24, ../_sass/sass/screen.scss */
+h2 {
+  font-size: 1.375em;
+  line-height: 1.09091em;
+  margin-top: 0.76364em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.32727em;
+}
+
+/* line 29, ../_sass/sass/screen.scss */
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin-top: 0.84em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.36em;
+}
+
+/* line 34, ../_sass/sass/screen.scss */
+h4 {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  margin-top: 0.93333em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.4em;
+}
+
+/* line 39, ../_sass/sass/screen.scss */
+h5 {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  margin-top: 0.93333em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.4em;
+}
+
+/* line 44, ../_sass/sass/screen.scss */
+h6 {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  margin-top: 0.93333em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.4em;
+}
+
+/* line 49, ../_sass/sass/screen.scss */
+title {
+  font-size: 1.875em;
+  line-height: 0.8em;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+/* Grid Rules */
 /* line 14, ../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -339,7 +426,7 @@ th {
   box-sizing: border-box;
 }
 
-/* line 20, ../_sass/sass/screen.scss */
+/* line 65, ../_sass/sass/screen.scss */
 .container {
   max-width: 100%;
   margin-left: auto;
@@ -355,7 +442,7 @@ th {
 }
 
 @media (min-width: 800px) {
-  /* line 27, ../_sass/sass/screen.scss */
+  /* line 72, ../_sass/sass/screen.scss */
   .nav {
     width: 23.72881%;
     float: left;
@@ -364,7 +451,7 @@ th {
 }
 
 @media (min-width: 800px) {
-  /* line 32, ../_sass/sass/screen.scss */
+  /* line 77, ../_sass/sass/screen.scss */
   .content {
     width: 100%;
     float: left;
@@ -373,7 +460,7 @@ th {
   }
 }
 
-/* line 37, ../_sass/sass/screen.scss */
+/* line 82, ../_sass/sass/screen.scss */
 .footer {
   @clearfix;
 }

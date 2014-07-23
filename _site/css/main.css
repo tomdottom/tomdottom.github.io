@@ -5,48 +5,28 @@
 /*****************************************************************************/
 
 /* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { height: 100%; }
-
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
 a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:hover   { color: rgb(0, 0, 0); }
+a:visited { color: rgb(0, 200, 230); }
 
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
+.title a:visited { color: #00a; }
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
 .posts li {
-  line-height: 1.75em;
 }
 
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
 }
 
 /*****************************************************************************/
@@ -56,29 +36,14 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
-  line-height: 1.5em;
 }
 
 .header a {
   font-weight: bold;
   text-decoration: none;
-}
-
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
 }
 
 .header a.extra {
@@ -95,7 +60,6 @@ a:visited { color: #a0a; }
 }
 
 .footer {
-  font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
