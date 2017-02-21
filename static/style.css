@@ -37,6 +37,17 @@ header nav ul li {
     padding: 0;
 }
 
+pre {
+  background-color: #fff;
+  padding: 20px;
+}
+
+blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
 div.page {
     background: #f1fbfe;
 }
