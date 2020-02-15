@@ -1,0 +1,57 @@
+_model: guide_rst
+---
+_template: guide.html
+---
+title: Software Engineering Podcasts
+---
+pub_date: 2017-02-19
+---
+author: Tom Marks
+---
+description:
+
+My Top Podcasts related to Software-Engineering, Python, & Javascript
+---
+body:
+
+I spend an inordinate amount of time listening to podcasts of which software engineering themed podcasts take up a lot of space on my iPod.
+
+I find them immessly useful in introducing me to new concepts, packages, books, resources, etc...
+
+I listen to all of the below on and off unless otherwise indicated and hope you might find something here for you too:
+
+
+General Software Engineering
+============================
+
+- `Software Engineering Radio`_
+
+  Published by the `IEEE Computer Society`_ its flagship podcast `Software Engineering Radio`_ covers a wide range topics from the foremost engineers in the world. I pick and choose episodes that seem relevant to me, but recent gems include:
+
+  - `SE-Radio Episode 281: James Whittaker on Career Strategy <http://www.se-radio.net/2017/02/se-radio-episode-281-james-whittaker-on-career-strategy/>`_
+  - `SE-Radio Episode 280: Gerald Weinberg on Bugs Errors and Software Quality <http://www.se-radio.net/2017/01/>`_
+  - `SE-Radio Episode 278: Peter Hilton on Naming <http://www.se-radio.net/2016/12/se-radio-episode-278-peter-hilton-on-naming/>`_
+  - `SE-Radio Episode 273: Steve McConnell on Software Estimation
+    <http://www.se-radio.net/2016/11/se-radio-episode-273-steve-mcconnell-on-software-estimation/>`_
+
+.. _IEEE Computer Society: https://www.computer.org
+.. _Software Engineering Radio: http://www.se-radio.net
+
+Python
+======
+
+- https://www.podcastinit.com/
+- https://talkpython.fm/
+
+Javascript
+==========
+
+- `Javascript Jabber`_
+
+  Just one of many offerings from `Dev Chat Tv`_. Until my most recent job I had listened to every episode. The podcast can almost be considered a documentry of the explosive development of JS over the past five or so years.
+
+  In particular I can directly attribute a direct improvement in my JS skill to `Episode 070: Book Club - Javascript Alonge with Reginald Braitwaite <https://devchat.tv/js-jabber/070-jsj-book-club-javascript-allonge-with-reginald-braithwaite>`_ which lead me to read the excellent `Javascript Allonge <https://leanpub.com/javascript-allonge>`_ and interesting `Functional Javascript <https://www.amazon.com/Functional-JavaScript-Introducing-Programming-Underscore-js/dp/1449360726/>`_.
+
+.. _Javascript Jabber: https://devchat.tv/js-jabber
+.. _Dev Chat Tv: https://devchat.tv/
+

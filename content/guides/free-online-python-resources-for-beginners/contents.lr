@@ -1,0 +1,128 @@
+_model: guide_rst
+---
+_template: guide.html
+---
+title: Free online Python resources for beginners
+---
+pub_date: 2017-02-16
+---
+author: Tom Marks
+---
+description:
+
+Free resources and guides for beginners wanting to learn Python.
+---
+body:
+
+Recommended
+===========
+
+1. Learn the basics with `Codecademy Python`_
+2. `Install Python`_ on your local PC.
+
+.. Note:: If you are unfamiliar with using the command line `Codecademy Learn the Command Line`_ may help.
+
+3. `Google's Python Class`_
+4. `Start Using VirtualEnv`_
+5. `Learn Python The Hard Way`_
+
+
+Learning Python the language
+============================
+
+1. `Codecademy Python`_
+
+
+  Codecademy provides many excelent introductory guides including this one on Python. It will walk you through Python's fundemental concepts, and syntax of the programming language.
+
+  All coding is done through Codecademy's interactive online interface. You don't have to install anything and can do the course on almost an PC with a browser and internet connection.
+
+
+2. `Google's Python Class`_
+
+  You may find youself repeating some stuff from `Codecademy Python`_, but Google's class will take you a little bit deeper into some of Python's builting packages.
+
+  It also comes with a two lectures to which will help cement your understanding of the basics.
+
+  Lastly there are four excercises for you to work through.
+
+.. http://www.diveintopython.net/toc/index.html
+.. https://pythonspot.com/
+.. https://python.swaroopch.com/
+.. http://www.learnpython.org/
+.. https://docs.python.org/3/tutorial/index.html
+
+
+Installing Python
+=================
+
+1) `The Hitchhiker’s Guide to Installing Python`_
+
+  `The Hitchhiker’s Guide to Python`_ contains lots of guides for all levels of Python. But amoungst its most useful is a guide on how to install Python for the most popular operating systems. If your OS isn't listed, you probably understand enough not to need this guide.
+
+
+Essential Python Tools
+======================
+
+1) virtualenv
+
+  This is really one of the **most essential tools** when working with Python. It stops a lot of pain in the long run by preventing conflicts between your induvidual projects and even system installed packages.
+
+  Confused? Then go read `The Hitchhiker’s Guide to Virtual Environments`_ which will guide you through using virutal environments and try to explain to you what they are along the way.
+
+  If this doesn't satisfy you questions then head over to the `virtualenv documentation`_
+
+.. _virtualenv documentation: https://virtualenv.pypa.io/en/stable/
+.. _The Hitchhiker’s Guide to Virtual Environments: http://docs.python-guide.org/en/latest/dev/virtualenvs/
+.. _Start Using VirtualEnv: `The Hitchhiker’s Guide to Virtual Environments`_
+
+Online Books
+============
+
+1. `Learn Python The Hard Way`_
+
+.. http://greenteapress.com/wp/think-python/
+.. http://automatetheboringstuff.com/ NOTE: contains working with csvs
+.. http://pymbook.readthedocs.io/en/latest/
+.. http://chimera.labs.oreilly.com/books/1230000000393
+.. http://chimera.labs.oreilly.com/books/1234000000754
+
+References
+==========
+
+I have used and worked through many of the guides, courses and books listed above over the years. But I got many others from googling and looking for new high quality resources. The following were helpful and may be updated long after I've stopped updating this guide:
+
+- https://hackr.io/tutorials/learn-python
+
+  A great community currated list of online resources to learn Python. Very likely to stay up to date.
+
+- https://www.quora.com/What-is-the-best-online-resource-to-learn-Python
+
+  The ever helpful Quora. I'm sure there are many other pages about Python, but this one helped me with this guide.
+
+
+
+.. Online Course Links
+
+.. _Codecademy Python: https://www.codecademy.com/learn/python
+
+.. _Codecademy Learn the Command Line: https://www.codecademy.com/learn/learn-the-command-line
+
+.. _Google's Python Class: https://developers.google.com/edu/python/
+
+
+.. Installing Python Links
+
+.. _The Hitchhiker’s Guide to Installing Python: http://docs.python-guide.org/en/latest/starting/installation/
+.. _Install Python: `The Hitchhiker’s Guide to Installing Python`_
+
+
+
+.. Online Python Books
+
+.. _Learn Python The Hard Way: https://learnpythonthehardway.org/book/
+
+
+.. Other Links
+
+.. _The Hitchhiker’s Guide to Python: http://docs.python-guide.org/

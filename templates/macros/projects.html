@@ -1,0 +1,10 @@
+{% macro render_project_description(project, from_index=false) %}
+  <a href="{{ project|url }}"><h1>{{ project.title }}</h1></a>
+  <p>{{ project.description }}</p>
+{% endmacro %}
+
+{% macro render_project(project, from_index=false) %}
+  <a href="{{ project|url }}"><h1>{{ project.title }}</h1></a>
+  <p>{{ project.description }}</p>
+  {{ project.body }}
+{% endmacro %}

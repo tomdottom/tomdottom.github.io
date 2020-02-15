@@ -1,0 +1,10 @@
+{% macro render_guide_description(guide, from_index=false) %}
+  <a href="{{ guide|url }}"><h1>{{ guide.title }}</h1></a>
+  <p>{{ guide.description }}</p>
+{% endmacro %}
+
+{% macro render_guide(guide, from_index=false) %}
+  <a href="{{ guide|url }}"><h1>{{ guide.title }}</h1></a>
+  <p>{{ guide.description }}</p>
+  {{ guide.body }}
+{% endmacro %}

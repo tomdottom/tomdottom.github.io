@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% from "macros/guides.html" import render_guide %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  {{ render_guide(this) }}
+{% endblock %}

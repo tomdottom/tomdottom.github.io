@@ -1,0 +1,16 @@
+title: New Site & First Guide
+---
+pub_date: 2017-02-17
+---
+author: Tom Marks
+---
+body:
+
+Hello & Welcome,
+
+This is a bit of a [NOP](https://en.wikipedia.org/wiki/NOP) post to share my first guide
+[Free online Python resources for beginners](/guides/free-online-python-resources-for-beginners/).
+
+Hopefully this will be useful to lots of you out there. In particular members of [Open Data Delaware](http://www.opendatadelaware.com/).
+
+I'll leave it to say that, as of writing, this site is still largely incomplete and unstyled. But I am enjoying getting to grips [Lektor](https://www.getlektor.com/) a Python static site generator and another awesome project by [Armin Ronacher](https://twitter.com/mitsuhiko).

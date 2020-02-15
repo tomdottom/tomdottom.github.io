@@ -1,0 +1,4 @@
+- https://en.wikipedia.org/wiki/Law_of_Demeter
+- https://en.wikipedia.org/wiki/Conway's_law
+- https://www.exceptionnotfound.net/fundamental-laws-of-software-development/
+- http://www.comp.nus.edu.sg/~damithch/pages/SE-quotes.htm

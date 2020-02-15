@@ -1,0 +1,13 @@
+[project]
+name = Tom Marks
+url_style = relative
+
+[servers.production]
+enabled = yes
+name = Production
+target = ghpages://tomdottom/tomdottom.github.io?cname=tommarks.co.uk
+default = yes
+
+[packages]
+lektor-rst = 0.1
+lektor-markdown-highlighter = 0.1

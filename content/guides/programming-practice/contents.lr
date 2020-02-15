@@ -1,0 +1,57 @@
+_model: guide_rst
+---
+_template: guide.html
+---
+title: Programing Practice
+---
+pub_date: 2017-02-28
+---
+author: Tom Marks
+---
+description:
+
+One the best ways to practice is to pick a problem you're interested in and try to solve it. However this can often be easier said than done. If you want a more guided route with some set problems try the suggestions below.
+---
+body:
+
+
+Programming Interview Videos
+============================
+
+`Programming Interview Videos`_
+
+
+Suggested to me by a long time ago by `Adam Johnson`_.
+
+Try to complete all the question posed in this video playlist.
+
+The problems are heavily influenced by computer science, so if you don't have a background in this you may have to google to understand the questions. But if you want to learn to program this probably isn't a bad thing!
+
+Whilst the author does provide solutions in Java try not to cheat and complete the problems yourself.
+
+For extra credit, and to make it even more fun, solve the questions using TDD_ in Python!
+
+.. raw:: html
+
+	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLlhDxqlV_-vkak9feCSrnjlrnzzzcopSG" frameborder="0" allowfullscreen></iframe></center>
+
+.. _Programming Interview Videos: https://www.youtube.com/playlist?list=PLlhDxqlV_-vkak9feCSrnjlrnzzzcopSG
+.. _Adam Johnson: https://adamj.eu/tech/
+
+
+Project Euler
+=============
+
+Suggested to me by `Hansel Dunlop`_.
+
+	`Project Euler`_ is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
+
+
+`Project Euler`_ provides just under 600 different problems so there's plenty to choose from. Start with ones you understand before moving on to the ones you don't.
+
+Again try and solve the questions using TDD_.
+
+.. _Hansel Dunlop: https://www.aychedee.com/
+.. _Project Euler: https://projecteuler.net/
+
+.. _TDD: https://en.wikipedia.org/wiki/Test-driven_development

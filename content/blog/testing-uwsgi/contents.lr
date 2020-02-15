@@ -1,0 +1,64 @@
+title: Testing uWSGI
+---
+pub_date: 2017-02-21
+---
+author: Tom Marks
+---
+body:
+
+# The pain of testing uWSGI applications
+
+Testing uWSGI applications can be tricky becuase you can't actualy install and import uWSGI.
+
+It's not very well [documented](https://github.com/unbit/uwsgi/issues/686), but
+
+> there is no uwsgi module. It does only exist when you run the python engine from uWSGI.
+
+
+Many a developer has been fustrated by this during testing running into:
+```python
+>>> import uwsgi
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named uwsgi
+```
+
+And although much of an application can be factored out into independent, and tested modules you will always have a small section that remains untested unless you engage in various levels of mocking.
+
+# 1. Ignore the error
+
+The easiest way to overcome the `ImportError` is just to ignore it.
+
+```python
+try:
+	import uwsgi
+except ImportError:
+    uwsgi = None
+```
+
+I've never been happy with doing this. Ignoring errors in this manner is a [code smell](http://wiki.c2.com/?CodeSmell)!
+
+# 2. Mocking the uwsgi module at the system level
+
+I much prefer creating a mock uwsgi module before importing any applications under test.
+
+The gist below shows how easy it really is:
+
+<script src="https://gist.github.com/tomdottom/afaf3a45e22dd000e9d23249dd74b0a8.js"></script>
+
+# 3. The unrealised dream
+
+I would love to be able to do
+
+```shell
+pip install mock_uwsgi
+```
+
+Then import it at the top of my test files
+
+```python
+import mock_uwsgi as uwsgi
+...
+```
+
+But this is a project for another day :(
