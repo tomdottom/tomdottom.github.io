@@ -70,8 +70,24 @@
       A Message Queue is not a Task Queue
     </a>
   </h1>
-  <h1>A <em>Message Queue</em> is not a <em>Task Queue</em></h1>
-<p>TODO</p>
+  <h2>What is a Task Queue</h2>
+<p>A <em>Task Queue</em> is almost self explanitory.  At it's simplest it is a list of tasks that need to be processed in some sort of order.</p><p>The queue itself does not do any of the work and relies on the external workers to process the tasks.</p>
+<div class="columns">
+  <div class="column is-half">
+    At a minimum each task should be in one of the following states:
+    <ul>
+      <li>Waiting to be processed</li>
+      <li>In Progress</li>
+      <li>Completed</li>
+      <li>Err/Failed</li>
+    </ul>
+  </div>
+  <div class="column has-text-centered">
+    <img src="/static/images/simple-fifo-task-queue.svg" alt="simple-fifo-task-queue" />
+  </div>
+</div>
+<h2>Properties of a Message Queue</h2>
+<p>TODO ...</p>
   <a href="/articles/a-message-queue-is-not-a-task-queue/">Read More</a>
 </div>
     </div>
