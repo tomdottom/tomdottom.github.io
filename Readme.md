@@ -15,9 +15,10 @@
 ## Deploy
 
     TMP_DIR=$(mktemp -d)
-    cp -r dist/* $TMP_DIR/
+    cp -r dist/ $TMP_DIR/
+    cp rsync-exclude.txt $TMP_DIR/
     git co master
-    rsync -avu --delete $TMP_DIR ./
+    rsync -avu --delete --exclude-from="$TMP_DIR/rsync-exclude.txt" "$TMP_DIR" "./"
     git add --all
     git commit -m 'content(): Update ....'
     git push
