@@ -18,7 +18,7 @@
     cp -r dist/ $TMP_DIR/
     cp rsync-exclude.txt $TMP_DIR/
     git co master
-    rsync -avu --delete --exclude-from="$TMP_DIR/rsync-exclude.txt" "$TMP_DIR" "./"
+    rsync -avu --delete --exclude-from="$TMP_DIR/rsync-exclude.txt" "$TMP_DIR/dist/" "./"
     git add --all
-    git commit -m 'content(): Update ....'
+    git commit -m "content(): Update on $(date --iso-8601='date')"
     git push
