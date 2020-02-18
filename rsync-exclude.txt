@@ -1,3 +1,4 @@
 CNAME
 rsync-exclude.txt
+.gitignore
 .git/
