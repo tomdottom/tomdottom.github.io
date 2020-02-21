@@ -2,20 +2,29 @@
 
 TMP_DIR=$(mktemp -d)
 
-function start() {
-    git stash --include-untracked
+function build() {
+    echo "Building"
+    if [[ ! -d "./node_modules" ]]
+    then
+        yarn install --pure-lockfile
+    fi
+
+    yarn run eleventy build
+    cp -r "dist/" "$TMP_DIR/"
+    cp rsync-exclude.txt "$TMP_DIR/"
 }
 
-function finish() {
-    git clean -xfd
-    git co src
-    git stash pop
+function stash() {
+    echo "Stashing"
+    set +e
+    git stash --all | grep -q "No local changes to save"
+    set -e
+    STASH=$?
+    echo "$STASH"
 }
-trap finish EXIT
 
 function publish() {
-    cp -r dist/ $TMP_DIR/
-    cp rsync-exclude.txt $TMP_DIR/
+    echo "Publishing"
     git co master
     rsync -avu --delete --exclude-from="$TMP_DIR/rsync-exclude.txt" "$TMP_DIR/dist/" "./"
     git add --all
@@ -23,5 +32,24 @@ function publish() {
     git push
 }
 
-start
-publish
+function finish() {
+    echo "Finishing "
+    git clean -xfd
+    git co src
+    echo "$STASH"
+    if [[ $STASH -eq 0 ]]
+    then
+        git stash pop
+    fi
+}
+trap finish EXIT
+
+
+function main() {
+    echo "Main"
+    build
+    stash
+    publish
+}
+
+main
