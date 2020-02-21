@@ -5,7 +5,7 @@ tags:
 layout: base
 title: A Message Queue is not a Task Queue
 permalink: "articles/a-message-queue-is-not-a-task-queue/"
-summaryLength: 3
+summaryLength: 4
 date: 2020-02-17
 ---
 ## What is a Task Queue
