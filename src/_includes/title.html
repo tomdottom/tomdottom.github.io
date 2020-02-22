@@ -1,0 +1,11 @@
+<div class="is-pulled-right has-text-right">
+    <div>{{- data.date | date: "%Y-%m-%d" -}}</div>
+    <div>
+        {%- for tag in data.tags -%}
+        <span class="tag is-black">{{- tag -}}</span>
+        {%- endfor -%}
+    </div>
+</div>
+<h1>
+    <a href="{{ post.url }}">{{- data.title -}}</a>
+</h1>
