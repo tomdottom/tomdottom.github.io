@@ -1,0 +1,2 @@
+- Hidden transfers of wealth
+- Demand - Supply equilibrium is an ensemble of stochastic processes
