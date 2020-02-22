@@ -63,9 +63,8 @@ For me this was a quick, and high level, refresher of much of my A-Level & Elect
     <div class="is-pulled-right has-text-right">
         <div>2020-02-21</div>
         <div>
-            <span class="tag is-black">Book</span>
-            <span class="tag is-black">Paperback</span>
-            <span class="tag is-black">Mathematics</span>
+            <span class="tag is-black">Essay</span>
+            <span class="tag is-black">Online</span>
         </div>
     </div>
 
