@@ -47,7 +47,11 @@ https://en.wikipedia.org/wiki/Billiard-ball_computer
 http://rubens.ens-lyon.fr/?page=accueil
 
 <iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/xrmfie" allowfullscreen allow="autoplay"></iframe>
+G
 
+## More Rabbit Holes
+
+* https://lmgtfy.com/?q=mechanical+computing+machines&s=l
 
 ## Games
 
