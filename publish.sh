@@ -9,8 +9,7 @@ function build() {
         yarn install --pure-lockfile
     fi
 
-    yarn run eleventy build
-    cp -r "dist/" "$TMP_DIR/"
+    yarn run eleventy build --output "$TMP_DIR/dist/"
     cp rsync-exclude.txt "$TMP_DIR/"
 }
 
@@ -26,7 +25,7 @@ function stash() {
 function publish() {
     echo "Publishing"
     git co master
-    rsync -avu --delete --exclude-from="$TMP_DIR/rsync-exclude.txt" "$TMP_DIR/dist/" "./"
+    rsync -avc --delete --exclude-from="$TMP_DIR/rsync-exclude.txt" "$TMP_DIR/dist/" "./"
     git add --all
     git commit -m "content(): Update on $(date --iso-8601='date')"
     git push
