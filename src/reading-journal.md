@@ -53,6 +53,12 @@ For me this was a quick, and high level, refresher of much of my A-Level & Elect
 </div>
 </br>
 
+Both a fantastic books and an infuriatingly awful book at the same time. The
+story, a quick tour through the foundations of modern mathematics, is well
+planned and extremely interesting. This, however, is spoiled by the authors
+excessively flowery and overly elaborate prose. And possible the worst past
+and an infuriating overuse of ellipsis ...
+
 [TODO]
 
 </section>
