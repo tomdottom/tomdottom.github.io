@@ -49,6 +49,13 @@ http://rubens.ens-lyon.fr/?page=accueil
 <iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/xrmfie" allowfullscreen allow="autoplay"></iframe>
 G
 
+## Rule 110 & Binary Counter
+
+* https://en.wikipedia.org/wiki/Rule_110
+* https://www.youtube.com/watch?v=QKnSRw_X2w4
+
+* https://www.youtube.com/watch?v=vf4_i-sBebU
+
 ## More Rabbit Holes
 
 * https://lmgtfy.com/?q=mechanical+computing+machines&s=l
