@@ -73,7 +73,7 @@
     <div><span class="tag is-black">post</span></div>
 </div>
 <h1>
-    <a href="/blog/testing-uwsgi/">Testing uWSGI applications</a>
+    <a href="/post/">Testing uWSGI applications</a>
 </h1><p>Testing uWSGI applications can be tricky because you can't actually install and import uWSGI.</p><p>It's not very well <a href="https://github.com/unbit/uwsgi/issues/686">documented</a>, but</p>
 <blockquote>
 <p>there is no uwsgi module. It does only exist when you run the python engine from uWSGI.</p>
@@ -82,7 +82,7 @@
 <pre class="language-py"><code class="language-py"><span class="token keyword">import</span> uwsgi</code></pre>
 <pre class="language-text"><code class="language-text">>> Traceback (most recent call last):<br>>>   File "<stdin>", line 1, in <module><br>>> ImportError: No module named uwsgi</code></pre>
 <p>And although much of an application can be factored out into independent testable modules you will always have a small section that remains untested unless you engage in various levels of mocking.</p></code></pre>
-    <a href="/blog/testing-uwsgi/">Read More</a>
+    <a href="/post/">Read More</a>
   </div>
 </section>
     </div>
