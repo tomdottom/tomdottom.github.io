@@ -83,3 +83,48 @@ and an infuriating overuse of ellipsis ...
 
 
 </section>
+
+
+</section>
+
+<section class="section box">
+
+<div>
+    <div class="is-pulled-right has-text-right">
+        <div>2020-02-24</div>
+        <div>
+            <span class="tag is-black">Post</span>
+            <span class="tag is-black">Online</span>
+        </div>
+    </div>
+
+# [To get good go after the metagame](https://commoncog.com/blog/to-get-good-go-after-the-metagame/)
+
+</div>
+</br>
+
+> The game, the game within the game, and the game outside of the game ...
+
+
+</section>
+
+<section class="section box">
+
+<div>
+    <div class="is-pulled-right has-text-right">
+        <div>2020-02-26</div>
+        <div>
+            <span class="tag is-black">Post</span>
+            <span class="tag is-black">Online</span>
+        </div>
+    </div>
+
+# [We Need To Take CO2 Out Of The Sky](https://www.orbuch.com/carbon-removal/)
+
+</div>
+</br>
+
+A worryingly sober analysis of the challenge of mitigating climate change
+
+
+</section>
