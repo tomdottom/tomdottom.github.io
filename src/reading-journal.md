@@ -128,3 +128,25 @@ A worryingly sober analysis of the challenge of mitigating climate change
 
 
 </section>
+
+<section class="section box">
+
+<div>
+    <div class="is-pulled-right has-text-right">
+        <div>2020-01-02</div>
+        <div>
+            <span class="tag is-black">Course</span>
+            <span class="tag is-black">Online</span>
+            <span class="tag is-black">Free</span>
+        </div>
+    </div>
+
+# [Google's Technical Writing Course (Part One)](https://developers.google.com/tech-writing/one)
+
+</div>
+</br>
+
+A great free resource course on technical writing primarily aimed at software developers.
+
+
+</section>
